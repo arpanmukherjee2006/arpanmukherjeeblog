@@ -6,7 +6,7 @@ const blogPosts = [
         date: '2025-08-30',
         category: 'Philosophy',
         tags: ['nature', 'beauty', 'illusion', 'philosophy', 'arpanmukherjee'],
-        image: 'images/nature.jpg',
+        image: 'nature.jpg',
         excerpt: 'Looking out from the window of a moving train, everything appeared so beautiful and peaceful. But then I thought, this beauty often looks good only from afar...',
         content: `
             <p>Looking out from the window of a moving train, everything appeared so beautiful and peaceful. The sunlight fell on the distant mountains, making them sparkle and appear incredibly captivating. Green trees and gentle slopes stretched so gracefully that the whole scene seemed like a dream.</p>
@@ -36,7 +36,7 @@ const blogPosts = [
         date: '2025-08-28',
         category: 'Philosophy',
         tags: ['philosophy', 'humanity', 'arpanmukherjeeblog'],
-        image: 'images/god is dead.jpeg',
+        image: 'god is dead.jpeg',
         excerpt: 'When I say "God is dead," I am not speaking of the gods people worship in temples, mosques, or churches. I am speaking of my God Humanity...',
         content: `
             <p>When I say "God is dead," I am not speaking of the gods people worship in temples, mosques, or churches. I am speaking of my God Humanity. For me, humanity has always been the purest form of divinity. It is not something distant in the sky, it lives here, between us, in our actions, in the way we treat each other.</p>
@@ -107,7 +107,7 @@ That even if the world forgets, even if humanity seems dead, it can rise again t
         date: '2025-05-26',
         category: 'Literature',
         tags: ['literature', 'philosophy', 'hindi', 'arpanmukherjeeblog'],
-        image: 'images/indrajeet.png',
+        image: 'indrajeet.png',
         excerpt: 'धधक रही थी दिशाओं में ज्वाला, नभ में गूंजा गर्जन, कौन पुरुष था वह, जो मृत्यु को दे रहा था खुला आमंत्रण?',
         content: `
             <div class="hindi-content">
@@ -182,7 +182,7 @@ That even if the world forgets, even if humanity seems dead, it can rise again t
         date: '2025-04-30',
         category: 'Tech',
         tags: ['tech', 'ai', 'productivity', 'arpanmukherjeeblog'],
-        image: 'images/taskmanager.png',
+        image: 'taskmanager.png',
         excerpt: 'Hey everyone! 👋 I\'m super excited to share that I\'ve just rolled out a major update to my task management web app — Taskumi 🎯...',
         content: `
             <p>Hey everyone! 👋</p>
@@ -271,7 +271,7 @@ That even if the world forgets, even if humanity seems dead, it can rise again t
         date: '2025-03-22',
         category: 'Philosophy',
         tags: ['philosophy', 'growth', 'life', 'arpanmukherjeeblog'],
-        image: 'images/fightclub.jpg',
+        image: 'fightclub.jpg',
         excerpt: 'One day, I told my brother, "I can\'t do the JEE exam. I\'m going to focus on my skills instead." I thought I was making a rational decision...',
         content: `
             <p>One day, I told my brother,</p>
@@ -353,4 +353,5 @@ function getPostsByCategory(category) {
 // Function to get posts by tag
 function getPostsByTag(tag) {
     return blogPosts.filter(post => post.tags.includes(tag));
+
 }
