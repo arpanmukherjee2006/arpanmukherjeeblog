@@ -353,5 +353,4 @@ function getPostsByCategory(category) {
 // Function to get posts by tag
 function getPostsByTag(tag) {
     return blogPosts.filter(post => post.tags.includes(tag));
-
 }
